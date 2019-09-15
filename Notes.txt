@@ -1,0 +1,6 @@
+# if you want the compiler to create the tsconfig.json file for you
+type "tsc --init"
+
+# if you want the options in tsconfig.json file to be applied by the compiler,
+(NoEmitOnError, Strict Type Checking...)
+just type tsc (instead of tsc filename) from the command line.
